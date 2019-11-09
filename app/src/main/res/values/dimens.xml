@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="DP_2">2dip</dimen>
+    <dimen name="DP_3">3dip</dimen>
+    <dimen name="DP_5">5dip</dimen>
+    <dimen name="DP_6">6dip</dimen>
+    <dimen name="DP_8">8dip</dimen>
+    <dimen name="DP_9">9dip</dimen>
+    <dimen name="DP_10">10dip</dimen>
+    <dimen name="DP_12">12dip</dimen>
+    <dimen name="DP_14">14dip</dimen>
+    <dimen name="DP_15">15dip</dimen>
+    <dimen name="DP_16">16dip</dimen>
+    <dimen name="DP_20">20dip</dimen>
+    <dimen name="DP_21">21dip</dimen>
+    <dimen name="DP_24">24dip</dimen>
+    <dimen name="DP_28">28dip</dimen>
+    <dimen name="DP_30">30dip</dimen>
+    <dimen name="DP_110">110dip</dimen>
+    <dimen name="DP_346">346dip</dimen>
+    <dimen name="SP_11">11sp</dimen>
+    <dimen name="SP_12">12sp</dimen>
+    <dimen name="SP_14">14sp</dimen>
+    <dimen name="SP_16">16sp</dimen>
+
+
+    <dimen name="list_padding">24dip</dimen>
+    <dimen name="list_item_padding_start">24dp</dimen>
+    <dimen name="list_item_padding_end">24dp</dimen>
+    <dimen name="list_item_padding_bottom">15dp</dimen>
+    <dimen name="list_item_padding_top">15dp</dimen>
+</resources>
