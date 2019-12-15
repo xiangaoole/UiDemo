@@ -1,4 +1,4 @@
-package com.gaoxiang.listviewdemo;
+package com.gaoxiang.uidemo.ui;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -9,13 +9,16 @@ import android.widget.AdapterView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.gaoxiang.uidemo.ContactsAdapter;
+import com.gaoxiang.uidemo.MultiChoiceListView;
+import com.gaoxiang.uidemo.R;
+import com.gaoxiang.uidemo.extra.ChildBaseActivity;
+
 import java.util.ArrayList;
 import java.util.List;
-import java.util.zip.Inflater;
 
-import gov.nist.javax.sip.header.To;
 
-public class MainActivity extends AppCompatActivity implements AdapterView.OnItemClickListener {
+public class ListViewActivity extends ChildBaseActivity implements AdapterView.OnItemClickListener {
 
     private MultiChoiceListView mListView;
     private ContactsAdapter mAdapter;

@@ -8,8 +8,14 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
-    <style name="ListItemSelectorStyle">
-        <item name="android:background">@drawable/color_preference_bg_selector</item>
+    <style name="TextViewDemoItem">
+        <item name="android:textSize">@dimen/text_view_demo_item_size</item>
+        <item name="android:text">@string/long_string</item>
+        <item name="android:textColor">@color/text_view_text</item>
+        <item name="android:background">@color/text_view_background</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/DP_5</item>
+        <item name="android:padding">@dimen/DP_5</item>
     </style>
-
 </resources>

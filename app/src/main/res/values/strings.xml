@@ -1,4 +1,15 @@
 <resources>
-    <string name="app_name">ListViewDemo</string>
-    <string name="tips" />
+    <string name="app_name">UiDemo</string>
+
+    <!-- Preference Titles -->
+
+    <!-- Messages Preferences -->
+
+    <!-- Sync Preferences -->
+    <string name="contents_listview">ListView</string>
+    <string name="contents_listview_summaray">ListView Demo</string>
+    <string name="listview_demo">ListView Demo</string>
+    <string name="contents_textview">TextView</string>
+    <string name="contents_textview_summary">TextView Demo</string>
+    <string name="long_string">从前有座灵剑山，山里有个灵剑派，派里有个王舞长老和她的真传弟子王陆，王舞等待她的大师兄欧阳商归来，等了100年，到头来，她和王陆在一起了</string>
 </resources>

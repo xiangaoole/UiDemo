@@ -29,4 +29,7 @@
     <dimen name="list_item_padding_end">24dp</dimen>
     <dimen name="list_item_padding_bottom">15dp</dimen>
     <dimen name="list_item_padding_top">15dp</dimen>
+
+
+    <dimen name="text_view_demo_item_size">18sp</dimen>
 </resources>

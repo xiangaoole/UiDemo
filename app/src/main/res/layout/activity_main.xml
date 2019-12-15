@@ -5,10 +5,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:context=".MainActivity">
+    tools:context=".ui.ListViewActivity">
 
-    <com.gaoxiang.listviewdemo.MultiChoiceListView
+    <com.gaoxiang.uidemo.MultiChoiceListView
         android:id="@+id/list"
+        android:listSelector="@drawable/color_preference_bg_selector"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:clipToPadding="false"

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.TextViewActivity">
+
+    <TextView
+        style="@style/TextViewDemoItem"/>
+
+    <TextView
+        android:singleLine="true"
+        android:ellipsize="start"
+        style="@style/TextViewDemoItem"/>
+
+    <TextView
+        android:singleLine="true"
+        android:ellipsize="end"
+        style="@style/TextViewDemoItem"/>
+
+    <TextView
+        android:singleLine="true"
+        android:ellipsize="middle"
+        style="@style/TextViewDemoItem"/>
+
+    <com.gaoxiang.uidemo.extra.FocusedTextView
+        android:singleLine="true"
+        android:ellipsize="marquee"
+        android:focusable="true"
+        android:scrollHorizontally="true"
+        android:marqueeRepeatLimit="marquee_forever"
+        style="@style/TextViewDemoItem"/>
+
+
+    <TextView
+        android:maxLines="2"
+        android:ellipsize="end"
+        android:scrollbars="vertical"
+        style="@style/TextViewDemoItem" />
+
+    <TextView
+        android:id="@+id/verticalScrollText"
+        android:maxLines="2"
+        android:scrollbars="vertical"
+        style="@style/TextViewDemoItem" />
+</LinearLayout>

@@ -1,4 +1,4 @@
-package com.gaoxiang.listviewdemo;
+package com.gaoxiang.uidemo;
 
 import org.junit.Test;
 

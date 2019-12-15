@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.gaoxiang.listviewdemo">
+    package="com.gaoxiang.uidemo">
 
     <application
         android:allowBackup="true"
@@ -9,13 +9,21 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity
+            android:name=".ui.TextViewActivity"
+            android:label="@string/contents_textview"></activity>
+        <activity
+            android:name=".ui.MainActivity"
+            android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".ui.ListViewActivity"
+            android:label="@string/contents_listview"></activity>
     </application>
 
 </manifest>

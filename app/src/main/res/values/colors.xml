@@ -5,5 +5,7 @@
     <color name="colorAccent">#D81B60</color>
 
     <color name="color_list_selector_color_disabled">#00000000</color>
-    <color name="color_list_selector_color_pressed">#08000000</color>
+    <color name="color_list_selector_color_pressed">#FF9800</color>
+    <color name="text_view_background">#FF9800</color>
+    <color name="text_view_text">#000000</color>
 </resources>
